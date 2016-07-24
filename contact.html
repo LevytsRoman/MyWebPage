@@ -4,30 +4,36 @@
 	<title>Contact - Graffiti</title>
 </head>
 <body>
-	<nav>
-		<a href="tutorials.html">Tutorials</a>
-		<a href="gallery.html">Gallery</a>
-		<a href="index.html">Home</a>
-	</nav>
-	<p>Feel free to send questions or share feedback below:</p>
-	<form name="contact" action="https://httpbin.org/post" method="post">
-		<label>Name:</label>
-		<input type="text" name="text" placeholder="Name">
-		<br>
-		<label>e-mail:</label>
-		<input type="e-mail" name ="e-mail" placeholder="youremail@domain.com">
-		<br>
-		<label>Message category:</label>
-		<select name="Category">
-  			<option value="Question">Question</option>
-  			<option value="Feedback">Feedback</option>
-  			<option value="Other">Other</option>
-		</select>
-		<br>
-		<textarea name="message" placeholder="Your message ..."></textarea>
-		<br>
-		<button type="submit">Submit</button>
-	</form>
+	<heder>
+		<nav>
+			<a href="tutorials.html">Tutorials</a>
+			<a href="gallery.html">Gallery</a>
+			<a href="index.html">Home</a>
+		</nav>
+	</header>
+	<main>
+		<section>
+			<p>Feel free to send questions or share feedback below:</p>
+			<form name="contact" action="https://httpbin.org/post" method="post">
+				<label>Name:</label>
+				<input type="text" name="text" placeholder="Name">
+				<br>
+				<label>e-mail:</label>
+				<input type="e-mail" name ="e-mail" placeholder="youremail@domain.com">
+				<br>
+				<label>Message category:</label>
+				<select name="Category">
+		  			<option value="Question">Question</option>
+		  			<option value="Feedback">Feedback</option>
+		  			<option value="Other">Other</option>
+				</select>
+				<br>
+				<textarea name="message" placeholder="Your message ..."></textarea>
+				<br>
+				<button type="submit">Submit</button>
+			</form>
+		</section>
+	</main>
 	<footer>
       <p>Copyright 2016 Roman Levytskyy</p>
     </footer>	
