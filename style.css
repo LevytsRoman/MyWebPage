@@ -25,7 +25,6 @@ nav a {
 	height: 50px;
 }
 main {
-	background-color: rgba(255,255,255, .9);
 	max-width: 960px;
 	width: 100%;
 	margin: auto;
@@ -49,38 +48,89 @@ Punk Kid font by Chris Hansen.
 
 urban_ninja4real@hotmail.com
 */
-h1 {
-	font-family: punkKid;
+h1, h2 {
+	font-family: punkKid, Helvetica;
 	letter-spacing: 2px;
 	font-size: 50px;
 	margin: 10px;
 	text-align: center;
 }
-a:link {
+.nav-links:link {
 	text-decoration: none;
 	color: lightgray;
 }
-a:visited {
+.nav-links:visited {
 	text-decoration: none;
 	color: lightgray;
 }
-a:hover {
+.nav-links:hover {
 	text-decoration: none;
 	color: black;
 	background-color: white;
-
-
 }
-a:active {
+.nav-links:active {
 	text-decoration: none;
-	color: lightgray;
+	color: hotpink;
 }
 p {
-	background-color: lightgrey;
 	width: 90%;
 	margin: auto;
 	margin-top: 20px;
 	font-size: 20px;
 	padding: 10px;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+ul li {
+	font-size: 20px;
+	margin-left: 5%;
+}
+section {
+	background-color: rgba(255,255,255, .9);
+	max-width: 960px;
+	width: 100%;
+	margin: auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+#homeimage {
+	width: 50%;
+	margin: auto;
+	margin-left: 25%;
+	margin-top: -15%;
+	margin-bottom: -15%;
+}
+#supplies {
+	background-color: rgba(0,0,0, .8);
+	color: white;
+}
+table {
+	width: 90%;
+	margin: auto;
+}
+td, th{
+	border-bottom: solid 1px #d1d1e0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+th {
+	background-color: ;
+}
+h2 {
+	font-size: 25px;
+	margin-bottom: 30px;
+}
+.mid {
+	background-color: rgba(255,255,255, .9);
+	color: black;
+}
+footer, small {
+	background-color: black;
+	max-width: 960;
+	text-align: center;
+	color: hotpink;
+	margin-top: 20px;
+}
+h3 {
+	font-size: 20px;
+	margin-left: 5%;
 }
