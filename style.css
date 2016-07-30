@@ -1,5 +1,5 @@
 body {
-	background-width: 100%;
+	width: 100%;
 	margin: auto;
 	background-image: url('./images/lost-places-1510592.jpg');
 	background-size: cover;
@@ -72,6 +72,18 @@ h1, h2 {
 	text-decoration: none;
 	color: hotpink;
 }
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
 p {
 	width: 90%;
 	margin: auto;
@@ -85,7 +97,7 @@ ul li {
 	margin-left: 5%;
 }
 section {
-	background-color: rgba(255,255,255, .9);
+	background-color: rgba(255,255,255, .5);
 	max-width: 960px;
 	width: 100%;
 	margin: auto;
@@ -106,6 +118,7 @@ section {
 table {
 	width: 90%;
 	margin: auto;
+    border-top: solid 1px #d1d1e0;
 }
 td, th{
 	border-bottom: solid 1px #d1d1e0;
@@ -120,17 +133,37 @@ h2 {
 	margin-bottom: 30px;
 }
 .mid {
-	background-color: rgba(255,255,255, .9);
-	color: black;
+	background-color: rgba(255,255,255, .1);
+	color: white;
+    border-bottom: none;
+    padding: 0 5px 0 20px;
 }
 footer, small {
 	background-color: black;
-	max-width: 960;
+	max-width: 960px;
+    margin: auto;
+    margin-top: 30px;
 	text-align: center;
 	color: hotpink;
-	margin-top: 20px;
 }
 h3 {
 	font-size: 20px;
 	margin-left: 5%;
+}
+@media screen and (max-width: 500px){
+    nav {
+        height: 200px;
+        text-align: center;
+    }
+    nav a {
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+    .right {
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+    
 }
