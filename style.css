@@ -1,15 +1,23 @@
 body {
+    color: #898476;
 	width: 100%;
+    min-height: 90vh;
 	margin: auto;
 	background-image: url('./images/lost-places-1510592.jpg');
 	background-size: cover;
 	background-repeat: none;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
+html {
+    min-height: 90vh;
+    width: 100%;
+}
 nav {
-	background-color: rgb(0,0,0);
+    border-radius: 3px;
+	background-color: #000000;
+    opacity: .8;
 	display: block;
-	max-width: 960px;
+	max-width: 1280px;
 	width: 100%;
 	margin: auto;
 	height: 50px;
@@ -26,17 +34,11 @@ nav a {
 	height: 50px;
 }
 main {
-	max-width: 960px;
+	max-width: 1280px;
 	width: 100%;
+    min-height: 85.1vh;
 	margin: auto;
 	margin-top: 20px;
-}
-img {
-	width: 500px;
-	height: auto;
-	-ms-transform: rotate(270deg); /* IE 9 */
-    -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
-    transform: rotate(270deg);
 }
 @font-face
 {
@@ -51,6 +53,7 @@ urban_ninja4real@hotmail.com
 */
 h1, h2 {
 	font-family: punkKid, Helvetica;
+    color: #424440;
 	letter-spacing: 2px;
 	font-size: 50px;
 	margin: 10px;
@@ -58,15 +61,15 @@ h1, h2 {
 }
 .nav-links:link {
 	text-decoration: none;
-	color: lightgray;
+	color: #FFFFFC;
 }
 .nav-links:visited {
 	text-decoration: none;
-	color: lightgray;
+	color: #FFFFFC;
 }
 .nav-links:hover {
 	text-decoration: none;
-	color: black;
+	color: #FF7F11;
 	background-color: white;
 }
 .nav-links:active {
@@ -75,12 +78,15 @@ h1, h2 {
 }
 a:link {
     text-decoration: none;
+    color: #FF1B1C;
 }
 a:visited {
     text-decoration: none;
+    color: #FF1B1C;
 }
 a:hover {
     text-decoration: none;
+    color: inherit;
 }
 a:active {
     text-decoration: none;
@@ -96,32 +102,28 @@ p {
 	width: 90%;
 	margin: auto;
 	margin-top: 20px;
-	font-size: 20px;
+	font-size: 17px;
 	padding: 10px;
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-weight: 200;
+	font-family: "Arial Black", Gadget, sans-serif;
 }
 ul li {
 	font-size: 20px;
 	margin-left: 5%;
+    font: "Courier New", Courier, monospace;
 }
 section {
-	background-color: rgba(255,255,255, .5);
-	max-width: 960px;
+    border-radius: 3px;
+	background-color: #FFFFFC;
+	max-width: 1280px;
 	width: 100%;
 	margin: auto;
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
-#homeimage {
-	width: 50%;
-	margin: auto;
-	margin-left: 25%;
-	margin-top: -15%;
-	margin-bottom: -15%;
-}
 #supplies {
-	background-color: rgba(0,0,0, .8);
-	color: white;
+	background-color: rgba(0,0,0, .9);
+	color: #FFFFFC;
 }
 table {
 	width: 90%;
@@ -133,22 +135,22 @@ td, th{
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
-th {
-	background-color: ;
-}
 h2 {
 	font-size: 25px;
 	margin-bottom: 30px;
+    color: #FFFFFC;
 }
+/*
 .mid {
 	background-color: rgba(255,255,255, .1);
 	color: white;
     border-bottom: none;
     padding: 0 5px 0 20px;
 }
+*/
 footer, small {
 	background-color: black;
-	max-width: 960px;
+	max-width: 1280px;
     margin: auto;
     margin-top: 30px;
 	text-align: center;
@@ -174,4 +176,33 @@ h3 {
         margin: auto;
     }
     
+}
+ul {
+    list-style: none;
+}
+.orange {
+    color: #FF7F11;
+}
+.full-height {
+    min-height: 70vh;
+}
+.gallery-img {
+    background-color: #B1B7AC;
+    border-radius: 5px;
+    height: 120px;
+    width: 225px;
+    margin: 20px;
+    display: inline-block;
+}
+div.gallery-img img {
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+    width: 90%;
+}
+div.gallery {
+    display: block;
+    margin: auto;
+    max-width: 90%;
+    overflow: auto;
 }
