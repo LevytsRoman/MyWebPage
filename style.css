@@ -160,10 +160,9 @@ footer {
 small {
     color: #FF1B1C;
     display: block;
-    padding-top: 2px;
+    padding-top: 1px;
     font-size: 15px;
     background-color: black;
-    height: 20px;
 }
 small a:link {
     color: white;
