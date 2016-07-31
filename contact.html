@@ -17,24 +17,21 @@
   	</nav>
   	</header>
 	<main>
-		<section class="full-height">
-			<h2>Feel free to send questions or share feedback below:</h2>
+		<section class="full-height" id="contactId">
+			<h1>Feel free to send <span class="orange">questions</span> or <span class="orange">feedback</span> feedback below</h1>
 			<form name="contact" action="https://httpbin.org/post" method="post">
 				<label>Name:</label>
 				<input type="text" name="text" placeholder="Name">
-				<br>
 				<label>e-mail:</label>
 				<input type="email" name ="e-mail" placeholder="youremail@domain.com">
-				<br>
 				<label>Message category:</label>
 				<select name="Category">
+                    <option disabled selected value="Choose one">Choose One</option>
 		  			<option value="Question">Question</option>
 		  			<option value="Feedback">Feedback</option>
 		  			<option value="Other">Other</option>
 				</select>
-				<br>
 				<textarea name="message" placeholder="Your message ..."></textarea>
-				<br>
 				<button type="submit">Submit</button>
 			</form>
 		</section>
