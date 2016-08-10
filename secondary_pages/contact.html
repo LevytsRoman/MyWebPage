@@ -2,25 +2,25 @@
 <html>
 <head>
 	<title>Contact - Graffiti</title>
-	<link rel="stylesheet" type="text/css" href="./style.css">
+	<link rel="stylesheet" type="text/css" href="../stylesheets/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 	<header>
-	  	<nav>
-        <a class="nav-links" href="index.html">Home</a>
-        <div class="right">
-          <a class="nav-links" href="tutorials.html">Tutorials</a>
-          <a class="nav-links" href="gallery.html">Gallery</a>
-          <a class="nav-links" href="contact.html">Contact</a>
-        </div>
-  	</nav>
+        <nav>
+            <a class="nav-links" href="../index.html">Home</a>
+            <div class="right">
+                <a class="nav-links" href="./tutorials.html">Tutorials</a>
+                <a class="nav-links" href="./gallery.html">Gallery</a>
+                <a class="nav-links" href="./contact.html">Contact</a>
+            </div>
+        </nav>
   	</header>
 	<main>
 		<section class="full-height" id="contactId">
-			<h1>Feel free to send <span class="orange">questions</span> or <span class="orange">feedback</span>  below</h1>
+            <h1>Feel free to send <span class="orange">questions</span> or <span class="orange">feedback</span>  below</h1>
 			<form name="contact" action="https://httpbin.org/post" method="post">
-				<label>Name:</label>
+                <label>Name:</label>
 				<input type="text" name="text" placeholder="Name">
 				<label>e-mail:</label>
 				<input type="email" name ="e-mail" placeholder="youremail@domain.com">
@@ -31,13 +31,14 @@
 		  			<option value="Feedback">Feedback</option>
 		  			<option value="Other">Other</option>
 				</select>
+                <label>Type your message below:</label>
 				<textarea name="message" placeholder="Your message ..."></textarea>
 				<button type="submit">Submit</button>
 			</form>
 		</section>
 	</main>
 	<footer>
-      <small>&copy; 2016 &ndash; <a href="#">Roman Levytskyy</a></small>
+        <small>&copy; 2016 &ndash; <a href="#">Roman Levytskyy</a></small>
     </footer>
 </body>
 </html>
