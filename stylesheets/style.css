@@ -1,9 +1,20 @@
+/* Fonts */
+/*
+Punk Kid font by Chris Hansen.
+
+urban_ninja4real@hotmail.com
+*/
+@font-face {
+    font-family: punkKid;
+    src: url('../fonts/punk_kid.ttf');
+}
+
 body {
     color: #898476;
 	width: 100%;
     min-height: 90vh;
 	margin: auto;
-	background-image: url('./images/lost-places-1510592.jpg');
+	background-image: url('../images/lost-places-1510592.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -40,17 +51,6 @@ main {
 	margin: auto;
 	margin-top: 20px;
 }
-@font-face
-{
-font-family: punkKid;
-src: url('punk_kid.ttf'),
-url('punk_kid.ttf');
-}
-/*
-Punk Kid font by Chris Hansen.
-
-urban_ninja4real@hotmail.com
-*/
 h1, h2 {
 	font-family: punkKid, Helvetica;
     color: #424440;
@@ -92,7 +92,7 @@ a:active {
     text-decoration: none;
 }
 #amazon {
-    background-image: url("./images/Amazon-logo.png");
+    background-image: url("../images/Amazon-logo.png");
     background-size: cover;
     background-repeat: no-repeat;
     color: transparent;
@@ -140,14 +140,6 @@ h2 {
 	margin-bottom: 30px;
     color: #FFFFFC;
 }
-/*
-.mid {
-	background-color: rgba(255,255,255, .1);
-	color: white;
-    border-bottom: none;
-    padding: 0 5px 0 20px;
-}
-*/
 footer {
 	background-color: black;
 	max-width: 1280px;
@@ -179,30 +171,6 @@ small a:active {
 h3 {
 	font-size: 20px;
 	margin-left: 5%;
-}
-@media only screen and (max-width: 540px){
-    nav {
-        height: 200px;
-        text-align: center;
-    }
-    nav a {
-        display: block;
-        width: 100%;
-        margin: auto;
-    }
-    .right {
-        display: block;
-        width: 100%;
-        margin: auto;
-    }
-    .gallery-img {
-        display: block;
-        width: 100%;
-        margin: auto;
-        margin-bottom: 30px;
-    }
-    
-    
 }
 ul {
     list-style: none;
@@ -245,6 +213,9 @@ label, input, textarea, button, select {
     box-sizing: border-box;
     padding-left: 10px;
 }
+option,select {
+    background-color: white;
+}
 label, button {
     background-color: black;
     color: #FF7F11;
@@ -252,6 +223,9 @@ label, button {
 }
 input, textarea, select {
     border: solid 1px #FF7F11;
+}
+input:active {
+    border: solid 1px blue;
 }
 textarea {
     resize: vertical;
@@ -276,4 +250,32 @@ button:hover {
 #home-image {
     width: 400px;
     display: inline-block;
+}
+input:focus, textarea:focus, select:focus {
+  box-shadow: 0 0 7px #FF7F11;
+  border: 1px solid #FF7F11;
+}
+
+
+@media only screen and (max-width: 540px){
+    nav {
+        height: 200px;
+        text-align: center;
+    }
+    nav a {
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+    .right {
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+    .gallery-img {
+        display: block;
+        width: 100%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
 }
