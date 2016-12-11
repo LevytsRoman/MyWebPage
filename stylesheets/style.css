@@ -28,7 +28,7 @@ nav {
 	background-color: #000000;
     opacity: .8;
 	display: block;
-	max-width: 1280px;
+	max-width: 960px;
 	width: 100%;
 	margin: auto;
 	height: 50px;
@@ -45,7 +45,7 @@ nav a {
 	height: 50px;
 }
 main {
-	max-width: 1280px;
+	max-width: 960px;
 	width: 100%;
     min-height: 85.1vh;
 	margin: auto;
@@ -115,7 +115,7 @@ ul li {
 section {
     border-radius: 3px;
 	background-color: #FFFFFC;
-	max-width: 1280px;
+	max-width: 960px;
 	width: 100%;
 	margin: auto;
 	padding-top: 30px;
@@ -142,7 +142,7 @@ h2 {
 }
 footer {
 	background-color: black;
-	max-width: 1280px;
+	max-width: 960px;
     margin: auto;
     margin-top: 30px;
 	text-align: center;
